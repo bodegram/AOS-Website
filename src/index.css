@@ -1,0 +1,19 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sofia';
+}
+
+.container-fluid{
+    padding-left: 88px;
+    padding-right: 88px;
+}
+
+
+@media screen and (max-width:600px) {
+    .container-fluid{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+}
