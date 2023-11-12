@@ -1,0 +1,33 @@
+.recharge-title{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.recharge-body .recharge-link{
+    color: black;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.recharge-item{
+    font-size: smaller;
+    margin-bottom: 15px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.recharge-items{
+    margin-left: 300px;
+}
+
+.recharge{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .recharge-items{
+        margin-left: 0px;
+    }
+}
