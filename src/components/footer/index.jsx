@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -35,6 +35,12 @@ export default function Footer() {
           </div>
           <div className="footer-social-item">
             <Link className="footer-link"><FaTwitter size={25}/></Link>
+          </div>
+          <div className="footer-social-item">
+            <Link className="footer-link"><FaEnvelope size={25}/></Link>
+          </div>
+          <div className="footer-social-item">
+            <Link className="footer-link"><FaWhatsapp size={25}/></Link>
           </div>
         </div>
       </div>

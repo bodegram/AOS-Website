@@ -71,13 +71,24 @@ footer{
         margin-bottom: 30px;
     }
 
-    .footer-item, .footer-social-item{
+     .footer-social-item{
         margin-bottom: 5px;
     }
 
 
+    .footer-item{
+        margin-bottom: 5px;
+        
+    }
+
+    .footer-social{
+        display: flex;
+        justify-content: center;
+    }
+
     .footer-menu{
-        display: block;
+        display: flex;
+        justify-content: center;
     }
 
     .footer-logo img{

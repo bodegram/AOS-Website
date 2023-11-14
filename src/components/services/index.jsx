@@ -1,9 +1,9 @@
 import React from 'react'
 import './index.css'
 import { Link } from 'react-router-dom'
-import ImgOne from '../../assets/images/b.avif'
-import ImgTwo from '../../assets/images/e.avif'
-import ImgThree from '../../assets/images/d.avif'
+import ImgOne from '../../assets/images/a.webp'
+import ImgTwo from '../../assets/images/b.webp'
+import ImgThree from '../../assets/images/c.webp'
 
 
 
@@ -36,7 +36,7 @@ export default function Services() {
            </div>
        </div>
        <div className="services-footer">
-          <Link className='services-btn'>More Services</Link>
+          <Link className='services-btn'>View Services</Link>
        </div>
     </div>
   )

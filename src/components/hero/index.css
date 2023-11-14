@@ -18,23 +18,23 @@
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 5px;
-    width: 60%;
+    width: 70%;
 }
 
 .hero-body{
     font-size: 14px;
     color: ghostwhite;
     margin-bottom: 50px;
-    width: 50%;
+    width: 70%;
 }
 
 .hero-content{
-    width: 60%;
+    width: 70%;
 
 }
 
-.hero-img{
-    
+.hero-img img{
+    width: 500px;
 }
 
 .hero-button{
@@ -78,7 +78,7 @@
 }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     .hero{
         margin-left: 8px;
         margin-right: 8px;
@@ -100,5 +100,10 @@
 
     .hero-header{
         width: 100%;
+    }
+
+    .hero-img img{
+        width: 100%;
+        margin-top: 50px;
     }
 }

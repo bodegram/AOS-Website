@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
+import HeroImg from '../../assets/images/contact.svg'
 
 export default function Hero() {
   return (
@@ -41,7 +42,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="hero-img">
-        <img src="" alt="img" />
+        <img src={HeroImg} alt="img" />
       </div>
     </div>
   );
