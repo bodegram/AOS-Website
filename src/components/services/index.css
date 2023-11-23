@@ -86,4 +86,10 @@
     .services-top{
         text-align: center;
     }
+
+    .services-title h3, .services-text{
+        text-align: center;
+    }
+
+
 }

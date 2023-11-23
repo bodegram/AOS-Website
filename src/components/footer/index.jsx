@@ -45,7 +45,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <div>Copyright 2024 AOS</div>
+        <div>Copyright 2024 | AL Recharge</div>
         <div>
         <Link className="footer-bottom-link">Privacy Policy</Link>
         </div>

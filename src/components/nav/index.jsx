@@ -17,21 +17,21 @@ export default function Nav() {
     <nav>
       <div className="nav-brand">
         <div>
-          <h3>AOS</h3>
+          <h3>AL Recharge</h3>
         </div>
       </div>
       <ul className={showMenu ? "nav-menu" : "nav-menu nav-hide"}>
         <li className="nav-item menu-header">
-          <h3 className="menu-header-text">AOS</h3>
+          <h3 className="menu-header-text">AL Recharge</h3>
         </li>
         <li className="nav-item">
-          <Link className="nav-link">Home</Link>
+          <Link className="nav-link" to='/'>Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link">About AOS</Link>
+          <Link className="nav-link" to='/about'>About AL Recharge</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to='#pricing'>Contact us</Link>
+          <Link className="nav-link" to='/contact'>Contact us</Link>
         </li>
       </ul>
       <div className="nav-btn">
